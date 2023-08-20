@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UseSwitchCompatOrMaterialXml">
+
+        <EditText
+            android:id="@+id/zona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Zona"
+            android:layout_margin="20dp" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:layout_margin="20dp" />
+
+        <Switch
+            android:id="@+id/accesible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Accesible"
+            android:inputType="number"
+            android:layout_margin="20dp" />
+
+        <EditText
+            android:id="@+id/carta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Carta"
+            android:layout_margin="20dp" />
+
+        <EditText
+            android:id="@+id/Establecimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Establecimiento"
+            android:layout_margin="20dp" />
+
+        <EditText
+            android:id="@+id/Foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Foto"
+            android:layout_margin="20dp" />
+
+        <EditText
+            android:id="@+id/Horario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Horario"
+            android:layout_margin="20dp" />
+
+        <EditText
+            android:id="@+id/Latitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Latitud"
+            android:layout_margin="20dp" />
+
+        <EditText
+            android:id="@+id/Longitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Longitud"
+            android:layout_margin="20dp" />
+
+        <EditText
+            android:id="@+id/Numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numero"
+            android:layout_margin="20dp" />
+
+        <EditText
+            android:id="@+id/Ubicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ubicacion"
+            android:layout_margin="20dp" />
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Id"
+            android:layout_margin="20dp" />
+
+        <Button
+            android:id="@+id/btnAgregarLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Local" />
+
+    </LinearLayout>
+</ScrollView>

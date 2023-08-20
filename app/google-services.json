@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "175434469186",
+    "project_id": "freemalaga-7a47b",
+    "storage_bucket": "freemalaga-7a47b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175434469186:android:b53524b30817ffe07582db",
+        "android_client_info": {
+          "package_name": "com.carlosmartin.espaasingluten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175434469186-s8plf5r88aphlmef2bvovp5i4a1qb5an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBujfiqmtF8Pb9i44N46B-X9kNt70VJ6eQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175434469186-s8plf5r88aphlmef2bvovp5i4a1qb5an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175434469186:android:99c76d41322922aa7582db",
+        "android_client_info": {
+          "package_name": "com.carlosml.malagafree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175434469186-s8plf5r88aphlmef2bvovp5i4a1qb5an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBujfiqmtF8Pb9i44N46B-X9kNt70VJ6eQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175434469186-s8plf5r88aphlmef2bvovp5i4a1qb5an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175434469186:android:c61c019b900e55e87582db",
+        "android_client_info": {
+          "package_name": "com.example.malagafree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175434469186-s8plf5r88aphlmef2bvovp5i4a1qb5an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBujfiqmtF8Pb9i44N46B-X9kNt70VJ6eQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175434469186-s8plf5r88aphlmef2bvovp5i4a1qb5an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

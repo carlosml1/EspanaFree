@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_icon"
+        android:label="España Sin Gluten"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EspañaSinGluten"
+        tools:targetApi="31">
+        <activity
+            android:name="com.carlosmartin.espaasingluten.MapaInteractivo.MapaInteractivo"
+            android:exported="false" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.ProductosGenericos.ProductosGenericosPantalla"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.ModoAdmin.CrearProducto"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.ModoAdmin.CrearLocal"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.ModoAdmin.ModoAdmin"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.Componentes.Suscripcion"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.Componentes.Sponsored"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.Mapa.ZonasMenuMapa"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.TicketsYNoticias.Noticias"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.TicketsYNoticias.Ticket"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.TicketsYNoticias.MenuTicketsYNoticias"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.Productos.RecyclerProductos"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.Productos.MenuProductos"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.Productos.BuscarProductos"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.Mapa.MostrarZonaRecycler"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.carlosmartin.espaasingluten.MenuPrincipal"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

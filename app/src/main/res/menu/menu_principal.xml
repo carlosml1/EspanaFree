@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/opcionDaltonico"
+        android:title="Modo Daltonicos" />
+    <item android:id="@+id/Sponsored"
+        android:title="Sponsored" />
+    <item android:id="@+id/Donativo"
+        android:title="Donativo" />
+    <item android:id="@+id/Informacion"
+        android:title="Informacion" />
+</menu>
